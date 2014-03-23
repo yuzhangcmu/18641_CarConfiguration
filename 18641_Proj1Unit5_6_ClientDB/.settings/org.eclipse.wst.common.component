@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="18641_Proj1Unit5_6_ClientDB">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/google-gson-2.2.4"/>
+        <property name="context-root" value="18641_Proj1Unit5_6_ClientDB"/>
+        <property name="java-output-path" value="/18641_Proj1Unit5_6_ClientDB/build/classes"/>
+    </wb-module>
+</project-modules>

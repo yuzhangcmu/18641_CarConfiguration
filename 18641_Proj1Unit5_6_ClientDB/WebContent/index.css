@@ -1,0 +1,28 @@
+label{
+    float: left;
+    /*display: block;*/
+    /*display: block;*/
+    width: 250px;
+}
+
+legend {
+    /* the size of all h2 heading is 2x the size of the fonts.*/
+    font-size: 2em;
+
+    /* sub heading text orange. */
+    color:black;
+
+    /* color of the shadow: Navigation Text Gray */
+    /* color of the shadow: Document Gray */
+    text-shadow: 2px 2px 2px rgb(60,60,60);
+}
+
+table
+{
+    border-collapse:collapse;
+}
+
+table, td, th {
+    text-align: left;
+}
+

@@ -1,0 +1,9 @@
+displayAuto: SELECT id, name, make, model,base_price FROM automobile
+addAuto: REPLACE INTO automobile (name, make, model, base_price) VALUES('%s','%s','%s','%f');
+addOptionSet: REPLACE INTO OPTIONSET (name, auto_id) VALUES('%s','%d')
+addOption: REPLACE INTO OPTIONS (name, value, optset_id) VALUES('%s','%f','%d');
+delAuto: DELETE FROM automobile WHERE name ='%s';
+UPDATE_AUTO_OPTION_NAME:UPDATE OPTIONSET SET name = '%s' WHERE auto_id = '%d' AND name='%s';
+update_find_auto: select id from automobile where name = '%s';
+update_find_optionset: select id from optionset where auto_id = '%d' AND name = '%s';
+UPDATE_AUTO_OPTION_PRICE: UPDATE OPTIONS SET value = '%f' WHERE optset_id = '%d' AND name='%s';

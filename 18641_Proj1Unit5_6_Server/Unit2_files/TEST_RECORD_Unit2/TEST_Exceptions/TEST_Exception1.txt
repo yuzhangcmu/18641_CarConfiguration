@@ -1,0 +1,9 @@
+--------------
+ Test a file that miss ModelName:
+---------------
+line number: 0
+UserExceptions [errorno=1, errormsg=Miss Model Name!]
+Exception in thread "main" java.lang.NullPointerException
+	at Adapter.ProxyAutomobile.buildAuto(ProxyAutomobile.java:39)
+	at test.Driver.test_MissModelName(Driver.java:208)
+	at test.Driver.main(Driver.java:24)

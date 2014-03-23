@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <package id="1" language="java" name="test" project="18641_Proj1_Server" file="/18641_Proj1_Server/src/test" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="115" x="64" y="96"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <interface id="2" language="java" name="adapter.EditThread" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/adapter/EditThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="257" x="1836" y="984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="adapter.CreateAuto" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/adapter/CreateAuto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="160" x="2133" y="984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="4" language="java" name="scale" project="18641_Proj1_Server" file="/18641_Proj1_Server/src/scale" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="115" x="481" y="96"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" name="model.Automobile" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/model/Automobile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="584" width="262" x="2626" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="util.ReadData" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/util/ReadData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="218" x="636" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="7" language="java" name="exceptions" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/exceptions" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="115" x="894" y="96"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <class id="8" language="java" name="adapter.BuildAuto" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/adapter/BuildAuto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="80" width="98" x="2207" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="model.OptionSet.Option" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/model/OptionSet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="149" x="2663" y="1392"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="server.SocketCLientInterface" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/server/SocketCLientInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="176" x="1342" y="984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="server.BuildCarModelOptions" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/server/BuildCarModelOptions.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="440" width="336" x="1460" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="server.DefaultSocketClient" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/server/DefaultSocketClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="332" width="190" x="1230" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="model.OptionSet" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/model/OptionSet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="368" width="225" x="2663" y="984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="14" language="java" name="model" project="18641_Proj1_Server" file="/18641_Proj1_Server/src/model" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="115" x="1689" y="96"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <class id="15" language="java" name="adapter.ProxyAutomobile" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/adapter/ProxyAutomobile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="290" x="2598" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="server.CarMultiServer" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/server/CarMultiServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="176" x="1014" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="scale.EditOptions" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/scale/EditOptions.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="242" width="331" x="1836" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="util.FileIO" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/util/FileIO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="222" x="219" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="19" language="java" name="server.SocketClientConstants" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/server/SocketClientConstants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="287" x="1015" y="984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="20" language="java" name="adapter.UpdateAuto" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/adapter/UpdateAuto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="290" x="2333" y="984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="21" language="java" name="server" project="18641_Proj1_Server" file="/18641_Proj1_Server/src/server" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="115" x="1049" y="96"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <interface id="22" language="java" name="server.AutoServer" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/server/AutoServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="80" width="238" x="1558" y="984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="23" language="java" name="test.DriverUnit3" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/test/DriverUnit3.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="125" x="1204" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="24" language="java" name="adapter" project="18641_Proj1_Server" file="/18641_Proj1_Server/src/adapter" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="115" x="1369" y="96"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <class id="25" language="java" name="test.DriverUnit4" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/test/DriverUnit4.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="125" x="1524" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="exceptions.UserExceptions" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/exceptions/UserExceptions.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="188" width="231" x="1844" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="test.Driver" project="18641_Proj1_Server" 
+    file="/18641_Proj1_Server/src/test/Driver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="288" x="2115" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="28" language="java" name="util" project="18641_Proj1_Server" file="/18641_Proj1_Server/src/util" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="115" x="2443" y="96"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <interface id="29" language="java" name="adapter.DeteleAutoDB" project="18641_Proj1Unit5_6_Server" 
+    file="/18641_Proj1Unit5_6_Server/src/adapter/DeteleAutoDB.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="80" width="164" x="2139" y="1133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="30" language="java" name="adapter.EditAutoDB" project="18641_Proj1Unit5_6_Server" 
+    file="/18641_Proj1Unit5_6_Server/src/adapter/EditAutoDB.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2480" y="1184"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="31" language="java" name="db.MySqlOption" project="18641_Proj1Unit5_6_Server" 
+    file="/18641_Proj1Unit5_6_Server/src/db/MySqlOption.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2291" y="1380"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="db.MySqlEditTable" project="18641_Proj1Unit5_6_Server" 
+    file="/18641_Proj1Unit5_6_Server/src/db/MySqlEditTable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1981" y="1617"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="db.MySqlCreateTable" project="18641_Proj1Unit5_6_Server" 
+    file="/18641_Proj1Unit5_6_Server/src/db/MySqlCreateTable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2240" y="1590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="db.MySqlDeleteAuto" project="18641_Proj1Unit5_6_Server" 
+    file="/18641_Proj1Unit5_6_Server/src/db/MySqlDeleteAuto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2436" y="1590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="35">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="36" name="choice"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="38">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <realization id="39">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <realization id="41">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="42">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <realization id="43">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <association id="45">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="46" name="opset"/>      
+      <multiplicity id="47" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="48">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="49">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="50" name="mobileHash"/>      
+      <multiplicity id="51" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="52">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="53">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <realization id="54">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <realization id="55">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <realization id="56">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <realization id="57">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="20"/>  
+  </realization>  
+  <association id="58">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="59" name="opt"/>      
+      <multiplicity id="60" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="31"/>  
+  </generalization>  
+  <association id="62">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="63" name="editThread"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="65">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

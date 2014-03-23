@@ -1,0 +1,9 @@
+Model Name,Audi A6
+OptionSet number,5
+make,Audi
+model,A6
+Base Price,38445
+Color of Audi,10,Gold Clearcoat Metallic,0,Liquid Grey Clearcoat Metallic,0,Infra-Red Clearcoat,0,Green Clearcoat Metallic,0,Sangria Red Clearcoat Metallic,0,French Blue Clearcoat Metallic,0,Twilight Blue Clearcoat Metallic,0,CD Silver Clearcoat Metallic,0,Pitch Black Clearcoat,0,Cloud 9 White Clearcoat,0,Red,0
+Transmission of Audi,2,automatic of Audi,500,manual,-815
+Brakes/Traction Control of Audi,3,Standard of Audi,0,ABS,400,ABS with Advance Trac,1625
+Side Impact Air Bags of Audi,2,present,350,not present,0

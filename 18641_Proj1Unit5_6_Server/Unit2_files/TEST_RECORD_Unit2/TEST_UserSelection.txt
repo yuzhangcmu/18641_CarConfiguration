@@ -1,0 +1,104 @@
+--------------
+Test user selection:
+---------------
+Model name:Focus Wagon ZTW
+Base Price:18445.000000
+Option number:5
+OptionSet name: Color
+Option number: 10
+==============================
+Fort Knox Gold Clearcoat Metallic:0.000000
+Liquid Grey Clearcoat Metallic:0.000000
+Infra-Red Clearcoat:0.000000
+Grabber Green Clearcoat Metallic:0.000000
+Sangria Red Clearcoat Metallic:0.000000
+French Blue Clearcoat Metallic:0.000000
+Twilight Blue Clearcoat Metallic:0.000000
+CD Silver Clearcoat Metallic:0.000000
+Pitch Black Clearcoat:0.000000
+Cloud 9 White Clearcoat:0.000000
+
+OptionSet name: Transmission
+Option number: 2
+==============================
+automatic:0.000000
+manual:-815.000000
+
+OptionSet name: Brakes/Traction Control
+Option number: 3
+==============================
+Standard:0.000000
+ABS:400.000000
+ABS with Advance Trac:1625.000000
+
+OptionSet name: Side Impact Air Bags
+Option number: 2
+==============================
+present:350.000000
+not present:0.000000
+
+OptionSet name: Power Moonroof
+Option number: 2
+==============================
+present:595.000000
+not present:0.000000
+
+Print the user choices:
+The user choice of "Color" is:Liquid Grey Clearcoat Metallic Price is: 0.000000
+The user choice of "Transmission" is:manual. Price is: -815.000000
+The user choice of "Brakes/Traction Control" is:ABS with Advance Trac. Price is: 1625.000000
+The user choice of "Side Impact Air Bags" is:not present. Price is: 0.000000
+The user choice of "Power Moonroof" is:present. Price is: 595.000000
+Total price is: 19850.000000
+--------------
+After serialization:
+---------------
+Model name:Focus Wagon ZTW
+Base Price:18445.000000
+Option number:5
+OptionSet name: Color
+Option number: 10
+==============================
+Fort Knox Gold Clearcoat Metallic:0.000000
+Liquid Grey Clearcoat Metallic:0.000000
+Infra-Red Clearcoat:0.000000
+Grabber Green Clearcoat Metallic:0.000000
+Sangria Red Clearcoat Metallic:0.000000
+French Blue Clearcoat Metallic:0.000000
+Twilight Blue Clearcoat Metallic:0.000000
+CD Silver Clearcoat Metallic:0.000000
+Pitch Black Clearcoat:0.000000
+Cloud 9 White Clearcoat:0.000000
+
+OptionSet name: Transmission
+Option number: 2
+==============================
+automatic:0.000000
+manual:-815.000000
+
+OptionSet name: Brakes/Traction Control
+Option number: 3
+==============================
+Standard:0.000000
+ABS:400.000000
+ABS with Advance Trac:1625.000000
+
+OptionSet name: Side Impact Air Bags
+Option number: 2
+==============================
+present:350.000000
+not present:0.000000
+
+OptionSet name: Power Moonroof
+Option number: 2
+==============================
+present:595.000000
+not present:0.000000
+
+Print the user choices:
+The user choice of "Color" is:Liquid Grey Clearcoat Metallic Price is: 0.000000
+The user choice of "Transmission" is:manual. Price is: -815.000000
+The user choice of "Brakes/Traction Control" is:ABS with Advance Trac. Price is: 1625.000000
+The user choice of "Side Impact Air Bags" is:not present. Price is: 0.000000
+The user choice of "Power Moonroof" is:present. Price is: 595.000000
+Total price is: 19850.000000

@@ -1,0 +1,8 @@
+--------------
+ Test a file that Base Price is negtive(Wrong):
+---------------
+UserExceptions [errorno=4, errormsg=The base Price is wrong!]
+Exception in thread "main" java.lang.NullPointerException
+	at Adapter.ProxyAutomobile.buildAuto(ProxyAutomobile.java:39)
+	at test.Driver.test_BasePriceWrong(Driver.java:232)
+	at test.Driver.main(Driver.java:32)

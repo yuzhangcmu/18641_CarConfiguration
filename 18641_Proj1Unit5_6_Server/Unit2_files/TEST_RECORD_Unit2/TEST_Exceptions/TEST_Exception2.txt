@@ -1,0 +1,8 @@
+--------------
+ Test a file that miss BasePrice:
+---------------
+UserExceptions [errorno=2, errormsg=Miss Base Price!]
+Exception in thread "main" java.lang.NullPointerException
+	at Adapter.ProxyAutomobile.buildAuto(ProxyAutomobile.java:39)
+	at test.Driver.test_MissBasePrice(Driver.java:197)
+	at test.Driver.main(Driver.java:21)

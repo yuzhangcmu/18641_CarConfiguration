@@ -1,0 +1,11 @@
+--------------
+ Test a file that miss OptionSet number:
+---------------
+line number: 0
+LastString:Model Name currString:Audi A6 
+line number: 1
+UserExceptions [errorno=3, errormsg=Miss OptionSet number!]
+Exception in thread "main" java.lang.NullPointerException
+	at Adapter.ProxyAutomobile.buildAuto(ProxyAutomobile.java:39)
+	at test.Driver.test_MissOptionNumber(Driver.java:219)
+	at test.Driver.main(Driver.java:27)
